@@ -1,7 +1,7 @@
 import { Injectable, Optional } from "@nestjs/common";
-import { TimeEntry } from "../time-entry.schema";
+import { TimeEntry } from "../entity/time-entry.schema";
 import { Types } from "mongoose";
-import { CreateTimeEntryDTO } from "../time-entry.dto";
+import { CreateTimeEntryDTO } from "../entity/time-entry.dto";
 import { TimeEntryDataSource } from "./time-entry.ds";
 
 @Injectable()

@@ -1,9 +1,8 @@
 import { AmountService } from "./amount/amount.service";
 import { FixedAmountService } from "./amount/fixed-amount.service";
-import { DurationService } from "./duration/duration.service";
-import { ExactDurationService } from "./duration/exact-duration.service";
 import { Types } from "mongoose";
 import { TimeEntryResultFactory } from "./result.service";
+import { DurationService, ExactDurationService } from "@modules/duration/duration-strategy";
 describe('TimeEntryResultFactory', () => {
   let amountSrv: AmountService;
   let durationSrv: DurationService;

@@ -1,5 +1,5 @@
-import { CreateTimeEntryDTO } from "../time-entry.dto";
-import { TimeEntry } from "../time-entry.schema";
+import { CreateTimeEntryDTO } from "../entity/time-entry.dto";
+import { TimeEntry } from "../entity/time-entry.schema";
 import { Types } from "mongoose";
 
 export abstract class TimeEntryDataSource {
